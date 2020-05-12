@@ -1,0 +1,25 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+footer{
+    background-color: black;
+    border: 2px solid orange;
+    color: whitesmoke;
+}
+header{
+    background-color: black;
+    border: 2px solid green;
+    color: whitesmoke;
+    position: sticky;
+}
+nav{
+    border: 2px solid blue;
+    position: absolute;
+    width: 200px;
+}
+section{
+    border: 2px solid red;
+    position: static;
+    margin-left: 200px;
+}
