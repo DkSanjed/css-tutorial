@@ -9,7 +9,6 @@ article {
 }
 article img {
     height: 100px;
-    object-fit: cover;
     width: 100px;
 }
 body {
@@ -20,9 +19,8 @@ div p {
     text-align: justify;
     width: 40%;
 }
-h1,h2 {
-    display: flex;
-    justify-content: center;
+h1 {
+    text-align: center;
 }
 main {
     display: grid;
