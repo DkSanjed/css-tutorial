@@ -1,0 +1,51 @@
+article {
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+article img {
+    height: 100px;
+    object-fit: cover;
+    width: 100px;
+}
+body {
+    background-color: rgb(80, 158, 204);
+}
+div p {
+    margin-right: 20px;;
+    text-align: justify;
+    width: 40%;
+}
+h1,h2 {
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: grid;
+    grid-template: 1fr 1fr /1fr 1fr 1fr;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+.heroe-button {
+    border-radius: 10px;
+    padding: 8px;
+    width: 70%;
+}
+@media screen and (max-width: 768px) and (min-width: 601px) {
+    main{
+        display: grid;
+        grid-template: 1fr 1fr /1fr 1fr;
+    }
+}
+@media screen and (max-width: 600px) {
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
