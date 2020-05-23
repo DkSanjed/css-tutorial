@@ -7,40 +7,52 @@ article {
     margin: 20px;
     padding: 10px;
 }
+
 article img {
     height: 100px;
     width: 100px;
 }
+
 body {
     background-color: rgb(80, 158, 204);
 }
+
 div p {
     margin-right: 20px;;
     text-align: justify;
     width: 40%;
 }
+
 h1 {
     text-align: center;
 }
+
 main {
     display: grid;
     grid-template: 1fr 1fr /1fr 1fr 1fr;
 }
+
 .content {
     display: flex;
     justify-content: space-around;
 }
+
 .heroe-button {
+    align-self: flex-end;   
     border-radius: 10px;
+    display: flex;
+    height: 40px;
     padding: 8px;
     width: 70%;
 }
+
 @media screen and (max-width: 768px) and (min-width: 601px) {
     main{
         display: grid;
         grid-template: 1fr 1fr /1fr 1fr;
     }
 }
+
 @media screen and (max-width: 600px) {
     main{
         display: flex;
