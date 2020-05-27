@@ -40,7 +40,6 @@ main {
 .heroe-button {
     align-self: flex-end;   
     border-radius: 10px;
-    display: flex;
     height: 40px;
     padding: 8px;
     width: 70%;
