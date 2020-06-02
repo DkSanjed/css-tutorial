@@ -4,14 +4,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-footer {
-    background-color: rgb(39, 39, 39);
-    padding: 6px;
-    text-align: center;
-}
-
 h1 {
-    background-color: rgb(39, 39, 39);
+    background-color:  #272727;
     font-size: x-large;
     font-weight: normal;
     margin: 0;
@@ -30,7 +24,7 @@ h2 {
 
 h3 {
     align-self: flex-end;
-    background-color: rgb(255, 255, 255, 0.25);
+    background-color: rgb(255, 255, 255, .25);
     margin: 0;
     padding-left: 10px;
     position: absolute;
@@ -56,6 +50,12 @@ section {
     padding: 3vw;
 }
 
+.myFooter {
+    background-color: #272727;
+    padding: 6px;
+    text-align: center;
+}
+
 .sections_games {
     display: grid;
     grid-template: 300px 300px 300px/1fr 1fr 1fr;
@@ -63,7 +63,7 @@ section {
 
 @media screen and (max-width: 600px) and (min-width: 320px) {
     h3 {
-        width: 96%;
+        width: 100%;
     }
 
     .header_games {
