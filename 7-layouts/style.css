@@ -1,0 +1,89 @@
+body {
+    color: whitesmoke;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    background-color:  #272727;
+    font-size: x-large;
+    font-weight: normal;
+    margin: 0;
+    padding: 6px;
+    padding-left: 20px;
+    position: sticky;
+    top: 0;
+}
+h2 {
+    color: aqua;
+    font-size: 10vw;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    align-self: flex-end;
+    background-color: rgb(255, 255, 255, .25);
+    margin: 0;
+    padding-left: 10px;
+    position: absolute;
+    width: 31vw;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    margin: 1vw;
+}
+
+.header_games {
+    background-image: url(https://i.pinimg.com/originals/5a/d4/7a/5ad47aae12355d55c86bcb408d88ba08.jpg);
+    background-size: cover;
+    display: grid;
+    height: 200px;
+    grid-template-columns: 50% 50%;
+    padding: 3vw;
+}
+
+.myFooter {
+    background-color: #272727;
+    padding: 6px;
+    text-align: center;
+}
+
+.sections_games {
+    display: grid;
+    grid-template: 300px 300px 300px/1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+    h3 {
+        width: 100%;
+    }
+
+    .header_games {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sections_games {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 601px) {  
+    h3 {
+        width: 46vw;
+    }
+
+    .sections_games {
+        display: grid;
+        grid-template: repeat(5, 300px)/1fr 1fr;
+    }
+}
